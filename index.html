@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Verification</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/1bf3845c05.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="apple-touch-icon" sizes="57x57" href="ccc.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="ccc.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="ccc.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="ccc.png">
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="ccc.png">
+    <link rel="icon" sizes="180x180" href="ccc.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #0d1143;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            /* Adjust the padding as needed */
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        h1 img {
+            width: 150px;
+            /* Adjust the size as needed */
+            height: auto;
+        }
+
+        .slider-container {
+            flex: 1;
+            margin: 0 10px;
+            /* Adjust the margin as needed */
+            position: relative;
+        }
+
+        .slider {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .slider img {
+            width: 100%;
+            height: auto;
+            display: none;
+        }
+
+        .info {
+            flex: 1;
+            margin: 0 20px;
+            text-align: justify;
+        }
+
+        .blog-right {
+            flex-basis: 32%;
+        }
+
+        .blog-right h3 {
+            background: #f44336;
+            color: #fff;
+            padding: 7px 0;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .blog-right div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #555;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        /*---Footer-*/
+
+        .footer {
+            width: 100%;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        .footer h4 {
+            margin-bottom: 25px;
+            margin-top: 20px;
+            font-weight: 600;
+        }
+
+        .icons .fa {
+            color: #1a0497;
+            margin: 3px;
+            cursor: pointer;
+            padding: 18px 0;
+        }
+
+        .icons .fab {
+            color: #1a0497;
+            margin: 3px;
+            cursor: pointer;
+            padding: 18px 0;
+            font-size: 15px;
+        }
+
+        .icons .fas {
+            color: #1a0497;
+            margin: 3px;
+            cursor: pointer;
+            padding: 18px 0;
+            font-size: 15px;
+        }
+
+        /*------Course------*/
+        .course {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: 600;
+        }
+
+        p {
+            color: #777;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 22px;
+            padding: 10px;
+        }
+
+        .row {
+            margin-top: 5%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .course-col {
+            flex-basis: 31%;
+            background: #fff3d3;
+            border-radius: 10px;
+            margin-bottom: 5%;
+            padding: 20px 12px;
+            box-sizing: border-box;
+            transition: 0.5s;
+        }
+
+        h3 {
+            text-align: center;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+
+        .course-col:hover {
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 2);
+        }
+
+        @media(max-width: 700px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+
+            to {
+                width: 100%;
+            }
+        }
+
+        #typing-text {
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 5s steps(50) infinite;
+            border-right: 0px solid #07013f;
+            font-family: 'KhmerOSBattambang', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1><img src="logo.png" alt="Your Logo"></h1>
+    </header>
+
+    <section class="course">
+        <p id="typing-text" style="color: rgb(0, 0, 0);">សូមអោយជួបតែសំណាងល្អ!</p>
+        <h2 style="color: rgb(0, 0, 0);">បងពៅ គឹមលាង</h2>
+
+        <div class="row">
+
+            <div class="course-col">
+                <h3>ជូនទៅភរិយាជាទីស្រលាញ់</h3>
+                <p>សូមផ្ញើរជូនទៅភរិយាជាទីស្រលាញ់ជាពិសេសទុកជាអនុស្សាវរីយ៍
+                    កាងារនេះជាទូទៅខ្ញុំតែងធ្វើវាជាប្រចាំគឺប្រហែលជាពីរម៉ោងទៅបីម៉ោងក្នុងមួយថ្ងៃ
+                    បន្ទាប់ពីនោះខ្ញុំសម្រាក់រយះពេលមួយម៉ោងទើបបន្តកាងារផ្សេងទៀតដែលកាងារនោះមានដូចជាការ Research បន្ថែមអំពី
+                    Web-devoloper,Technology,designer ក៏ដូចជាធ្វើលំហាត់មួយចំនួនផងដែរតាមដែលអាចធ្វើទៅបាន</p>
+            </div>
+
+        </div>
+        <h3 style="color: rgb(30, 255, 0);">PRODUCT VERIFIED</h3>
+
+        <div class="slider-container">
+            <div class="slider">
+                <img src="img1.png" alt="Image 1">
+                <img src="img2.png" alt="Image 2">
+                <img src="img3.png" alt="Image 3">
+                <img src="img4.png" alt="Image 4">
+                <!-- Add more images as needed -->
+            </div>
+        </div>
+
+        <h3 style="color: rgb(0, 0, 0); text-align: left;">ផលិតផលឈ្មោះ: COACH DREAM FOR WOMEN<br>ផលិតនៅ:
+            AMERICAN<br>បាកូដបញ្ជាក់:
+            69290464413<br>ចំណុះ: 90ml</h3>
+
+
+        <section class="footer">
+            <h4>រក្សាសិទ្ធគ្រប់យ៉ាងដោយ</h4>
+            <p>សូមជូនពរទៅកាន់អតិថិជនដែលបានគាំទ្រ ដំណាក់ ក្លិន ទាំងអស់អោយជួបតែសំណាងល្អ<br>
+                ហាងយើងខ្ញុំមានក្តីសោមនាស់យ៉ាងក្រែលែងអំពីការជួយគាំទ្រហាងយើងខ្ញុំកន្លងមកដែលមិនអាចកាត់ថ្លៃបាន សូមអរគុណ!</p>
+            <div class="icons">
+                <a href="https://web.facebook.com/domnakklen.official"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/domnakklen.official/"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/domnakklen.official"><i class="fa fa-youtube-play"></i></a>
+                <a href="https://t.me/domnakklen"><i class="fa fa-telegram"></i></a>
+                <a href="https://www.tiktok.com/@domnak.klen"><i class='fab fa-tiktok fa-lg'></i></a>
+            </div>
+        </section>
+
+        <script>
+            let currentSlide = 0;
+            const slides = document.querySelectorAll('.slider img');
+
+            function showSlide(index) {
+                slides.forEach((slide, i) => {
+                    slide.style.display = i === index ? 'block' : 'none';
+                });
+            }
+
+            // Show the first slide when the page loads
+            showSlide(currentSlide);
+
+            function nextSlide() {
+                currentSlide = (currentSlide + 1) % slides.length;
+                showSlide(currentSlide);
+            }
+
+            function prevSlide() {
+                currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+                showSlide(currentSlide);
+            }
+
+            // Auto-play the slider
+            setInterval(nextSlide, 5000); // Change the interval as needed
+        </script>
+</body>
+
+</html>
